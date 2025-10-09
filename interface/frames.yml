@@ -5,6 +5,9 @@ template_name: ai_framing
 template_label: AI Framing Interface
 template_description: Annotation Template for AI Media Framing
 
+display:
+  - side-to-side
+
 instructions: |
   ## Annotating Instructions
 
