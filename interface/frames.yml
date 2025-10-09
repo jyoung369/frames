@@ -26,7 +26,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -44,7 +44,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -62,7 +62,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -80,7 +80,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -98,7 +98,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -107,7 +107,7 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: info-access
+  - name: info
     label: "information access"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
@@ -116,7 +116,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -125,7 +125,7 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: security-privacy
+  - name: security
     label: "security & privacy"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
@@ -134,7 +134,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -152,7 +152,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -170,7 +170,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -188,7 +188,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -206,7 +206,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -224,7 +224,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -233,7 +233,7 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: social-media
+  - name: social
     label: "social media"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
@@ -242,7 +242,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -260,7 +260,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -278,7 +278,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -296,7 +296,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -314,7 +314,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -332,7 +332,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -348,7 +348,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -364,7 +364,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -380,7 +380,7 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
@@ -396,11 +396,11 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: custom-frame
+      - name: custom
         label: "Custom Frame"
         question: "Input your custom frame"
         options: textarea
-      - name: pos-neg
+      - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
