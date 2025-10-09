@@ -5,6 +5,9 @@ template_name: ai_framing
 template_label: AI Framing Interface
 template_description: Annotation Template for AI Media Framing
 
+display:
+  - side-by-side
+
 instructions: |
   ## Annotating Instructions
 
@@ -21,7 +24,7 @@ edits:
     label: "intelligence"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: green # Use HEX codes, or pre-defined colors
     icon: fa-lightbulb # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -57,7 +60,7 @@ edits:
     label: "productivity"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: blue # Use HEX codes, or pre-defined colors
     icon: fa-file # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -75,7 +78,7 @@ edits:
     label: "jobs"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: orange # Use HEX codes, or pre-defined colors
     icon: fa-briefcase # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -93,7 +96,7 @@ edits:
     label: "education"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: red # Use HEX codes, or pre-defined colors
     icon: fa-pencil # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -111,7 +114,7 @@ edits:
     label: "information access"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: teal # Use HEX codes, or pre-defined colors
     icon: fa-book # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -129,7 +132,7 @@ edits:
     label: "security & privacy"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: brown # Use HEX codes, or pre-defined colors
     icon: fa-database # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -147,8 +150,8 @@ edits:
     label: "safety"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
-    icon: fa-lightbulb # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: indigo # Use HEX codes, or pre-defined colors
+    icon: fa-helmet-safety # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -165,7 +168,7 @@ edits:
     label: "economy"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: "green" # Use HEX codes, or pre-defined colors
     icon: fa-money-bill # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -201,7 +204,7 @@ edits:
     label: "bias"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: blue # Use HEX codes, or pre-defined colors
     icon: fa-scale-unbalanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -219,8 +222,8 @@ edits:
     label: "companionship"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
-    icon: fa-lightbulb # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: orange # Use HEX codes, or pre-defined colors
+    icon: fa-handshake # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -237,7 +240,7 @@ edits:
     label: "social media"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: red # Use HEX codes, or pre-defined colors
     icon: fa-camera # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -255,7 +258,7 @@ edits:
     label: "healthcare"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: teal # Use HEX codes, or pre-defined colors
     icon: fa-stethoscope # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -273,7 +276,7 @@ edits:
     label: "weapons"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: brown # Use HEX codes, or pre-defined colors
     icon: fa-shield # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -291,7 +294,7 @@ edits:
     label: "customer experience"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: indigo # Use HEX codes, or pre-defined colors
     icon: fa-headphones # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -309,7 +312,7 @@ edits:
     label: "devices"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: green # Use HEX codes, or pre-defined colors
     icon: fa-computer # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -343,7 +346,7 @@ edits:
     label: "impersonation"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: blue # Use HEX codes, or pre-defined colors
     icon: fa-user # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -359,7 +362,7 @@ edits:
     label: "copyright infringement"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: orange # Use HEX codes, or pre-defined colors
     icon: fa-copyright # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -375,7 +378,7 @@ edits:
     label: "accountability"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: teal # Use HEX codes, or pre-defined colors
     icon: fa-scale-balanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
