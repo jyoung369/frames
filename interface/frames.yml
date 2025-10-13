@@ -20,30 +20,28 @@ interface_text:
 
 # "Edits" are our units of annotations. First, edits are selected, then annotated.
 edits:
-  - name: intelligence
-    label: "intelligence"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: green # Use HEX codes, or pre-defined colors
-    icon: fa-lightbulb # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: integration
-    label: "integration"
+  - name: accountability
+    label: "accountability"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
     color: purple # Use HEX codes, or pre-defined colors
-    icon: fa-house # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    icon: fa-scale-balanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: neg
+            label: "negative"
+
+  - name: bias
+    label: "bias"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-scale-unbalanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -56,12 +54,12 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: productivity
-    label: "productivity"
+  - name: copyright
+    label: "copyright infringement"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
     color: blue # Use HEX codes, or pre-defined colors
-    icon: fa-file # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    icon: fa-copyright # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -69,98 +67,6 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: jobs
-    label: "jobs"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: orange # Use HEX codes, or pre-defined colors
-    icon: fa-briefcase # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: education
-    label: "education"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: red # Use HEX codes, or pre-defined colors
-    icon: fa-pencil # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: info
-    label: "information access"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: teal # Use HEX codes, or pre-defined colors
-    icon: fa-book # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: security
-    label: "security & privacy"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: brown # Use HEX codes, or pre-defined colors
-    icon: fa-database # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: safety
-    label: "safety"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: indigo # Use HEX codes, or pre-defined colors
-    icon: fa-helmet-safety # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
           - name: neg
             label: "negative"
 
@@ -168,7 +74,7 @@ edits:
     label: "economy"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: "green" # Use HEX codes, or pre-defined colors
+    color: teal # Use HEX codes, or pre-defined colors
     icon: fa-money-bill # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -186,7 +92,7 @@ edits:
     label: "environment"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: green # Use HEX codes, or pre-defined colors
     icon: fa-cloud # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -200,48 +106,12 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: bias
-    label: "bias"
+  - name: education
+    label: "education"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
     color: blue # Use HEX codes, or pre-defined colors
-    icon: fa-scale-unbalanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: companionship
-    label: "companionship"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: orange # Use HEX codes, or pre-defined colors
-    icon: fa-handshake # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: social
-    label: "social media"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: red # Use HEX codes, or pre-defined colors
-    icon: fa-camera # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    icon: fa-pencil # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -258,7 +128,7 @@ edits:
     label: "healthcare"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: teal # Use HEX codes, or pre-defined colors
+    color: green # Use HEX codes, or pre-defined colors
     icon: fa-stethoscope # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -272,12 +142,28 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: weapons
-    label: "weapons"
+  - name: impersonation
+    label: "impersonation"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: brown # Use HEX codes, or pre-defined colors
-    icon: fa-shield # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: orange # Use HEX codes, or pre-defined colors
+    icon: fa-user # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: neg
+            label: "negative"
+
+  - name: info
+    label: "information access"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: blue # Use HEX codes, or pre-defined colors
+    icon: fa-book # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -290,12 +176,12 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: customer
-    label: "customer experience"
+  - name: intelligence
+    label: "intelligence"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: indigo # Use HEX codes, or pre-defined colors
-    icon: fa-headphones # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: blue # Use HEX codes, or pre-defined colors
+    icon: fa-lightbulb # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -308,12 +194,100 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: devices
-    label: "devices"
+  - name: jobs
+    label: "jobs"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: green # Use HEX codes, or pre-defined colors
-    icon: fa-computer # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: teal # Use HEX codes, or pre-defined colors
+    icon: fa-briefcase # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: physical
+    label: "physical agents"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-building # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: neg
+            label: "negative"
+
+  - name: privacy
+    label: "privacy"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: orange # Use HEX codes, or pre-defined colors
+    icon: fa-lock # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: productivity
+    label: "productivity"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: teal # Use HEX codes, or pre-defined colors
+    icon: fa-file # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: relationships
+    label: "relationships"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-handshake # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: safety
+    label: "safety"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: orange # Use HEX codes, or pre-defined colors
+    icon: fa-helmet-safety # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -330,7 +304,7 @@ edits:
     label: "scamming"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
+    color: orange # Use HEX codes, or pre-defined colors
     icon: fa-server # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
@@ -342,28 +316,84 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: impersonation
-    label: "impersonation"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: blue # Use HEX codes, or pre-defined colors
-    icon: fa-user # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: neg
-            label: "negative"
-
-  - name: copyright
-    label: "copyright infringement"
+  - name: security
+    label: "security"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
     color: orange # Use HEX codes, or pre-defined colors
-    icon: fa-copyright # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    icon: fa-database # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: social
+    label: "social media"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-camera # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: user
+    label: "user experience"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: green # Use HEX codes, or pre-defined colors
+    icon: fa-headphones # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: weapons
+    label: "weapons"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: green # Use HEX codes, or pre-defined colors
+    icon: fa-shield # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
+  - name: domination
+    label: "world domination"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-globe # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
@@ -374,19 +404,25 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: accountability
-    label: "accountability"
+  - name: general
+    label: "general"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
-    color: teal # Use HEX codes, or pre-defined colors
-    icon: fa-scale-balanced # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+    color: red # Use HEX codes, or pre-defined colors
+    icon: fa-asterisk # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
 
     # Specify annotations for the edit
     annotation:
+      - name: custom
+        label: "Custom Frame"
+        question: "Input your custom frame"
+        options: textarea
       - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
+          - name: pos
+            label: "positive"
           - name: neg
             label: "negative"
 
