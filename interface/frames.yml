@@ -225,8 +225,8 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
-          - name: neg
-            label: "negative"
+          - name: pos
+            label: "positive"
 
   - name: privacy
     label: "privacy"
