@@ -413,10 +413,6 @@ edits:
 
     # Specify annotations for the edit
     annotation:
-      - name: custom
-        label: "Custom Frame"
-        question: "Input your custom frame"
-        options: textarea
       - name: sentiment
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
