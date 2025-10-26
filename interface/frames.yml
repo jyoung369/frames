@@ -19,7 +19,7 @@ instructions: |
 
   1) Select the framing category and highlight the relevant sentence. Select save.
 
-  2) Edit (pencil icon) the annotation to specify a sentiment (positive/negative) and custom frame (other only). Select save.
+  2) Edit the annotation to specify a positive/negative sentiment and custom frame (if needed). Select save.
 
   Reminder: Thresh will NOT save your annotations. If you leave the page or refresh, download your annotations. You can resume work at the same place by uploading this downloaded file.
 
