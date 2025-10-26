@@ -11,7 +11,17 @@ display:
 instructions: |
   ## Annotating Instructions
 
-  For each article, create annotations on a sentence-level. If a sentence is related to AI, choose the type of...
+  The most comprehensive annotation guidelines are found here: [https://docs.google.com/presentation/d/1xzPApuKoEctxVBZEM_GEKs4Lmh6B67H_03pFFYtW_F8/edit?usp=sharing](https://docs.google.com/presentation/d/1xzPApuKoEctxVBZEM_GEKs4Lmh6B67H_03pFFYtW_F8/edit?usp=sharing)
+
+  A printable table of framing definitions can be found here: [https://drive.google.com/file/d/16VpPCm3kfwE4UF_aXDd2Oaw08h-34spO/view?usp=sharing](https://drive.google.com/file/d/16VpPCm3kfwE4UF_aXDd2Oaw08h-34spO/view?usp=sharing)
+
+  Annotation is a 2-step process. 
+
+  1) Select the framing category and highlight the relevant sentence. Select save.
+
+  2) Edit (pencil icon) the annotation to specify a sentiment (positive/negative) and custom frame (other only). Select save.
+
+  Reminder: Thresh will NOT save your annotations. If you leave the page or refresh, download your annotations. You can resume work at the same place by uploading this downloaded file.
 
 interface_text:
   typology:
