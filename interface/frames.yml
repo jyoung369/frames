@@ -212,6 +212,24 @@ edits:
           - name: neg
             label: "negative"
 
+  - name: misinformation
+    label: "misinformation"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: blue # Use HEX codes, or pre-defined colors
+    icon: fa-book-skull # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
   - name: physical
     label: "physical agents"
     enable_input: true # Enables selecting this edit on the input
