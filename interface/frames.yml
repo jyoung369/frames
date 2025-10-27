@@ -292,7 +292,7 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: social
+  - name: companions
     label: "social companions"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
@@ -362,7 +362,7 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: social
+  - name: media
     label: "social media"
     enable_input: true # Enables selecting this edit on the input
     enable_output: false # Enables selecting this edit on the output
