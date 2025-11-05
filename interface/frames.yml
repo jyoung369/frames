@@ -28,6 +28,8 @@ interface_text:
     source_label: "Article"
     target_label: ""
 
+default_data_link: ""
+
 # "Edits" are our units of annotations. First, edits are selected, then annotated.
 edits:
   - name: accountability
