@@ -28,7 +28,7 @@ interface_text:
     source_label: "Article"
     target_label: ""
 
-default_data_link: "https://thresh.tools/data/salsa.json"
+default_data_link: "https://thresh.tools/data/example_data.json"
 
 # "Edits" are our units of annotations. First, edits are selected, then annotated.
 edits:
