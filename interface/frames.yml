@@ -100,6 +100,24 @@ edits:
           - name: neg
             label: "negative"
 
+  - name: energy
+    label: "energy"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: green # Use HEX codes, or pre-defined colors
+    icon: fa-bolt # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
   - name: environment
     label: "environment"
     enable_input: true # Enables selecting this edit on the input
