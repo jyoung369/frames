@@ -47,6 +47,8 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
+          - name: pos
+            label: "positive"
           - name: neg
             label: "negative"
 
@@ -81,6 +83,8 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
+          - name: pos
+            label: "positive"
           - name: neg
             label: "negative"
 
@@ -187,6 +191,8 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
+          - name: pos
+            label: "positive"
           - name: neg
             label: "negative"
 
@@ -363,6 +369,8 @@ edits:
         label: "Positive/Negative"
         question: "Is the portryal of AI positive or negative?"
         options:
+          - name: pos
+            label: "positive"
           - name: neg
             label: "negative"
 
