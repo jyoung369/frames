@@ -268,22 +268,6 @@ edits:
           - name: neg
             label: "negative"
 
-  - name: physical
-    label: "physical agents"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
-    icon: fa-building # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
-          - name: pos
-            label: "positive"
-
   - name: privacy
     label: "privacy"
     enable_input: true # Enables selecting this edit on the input
@@ -410,6 +394,24 @@ edits:
           - name: neg
             label: "negative"
 
+  - name: integration
+    label: "societal integration"
+    enable_input: true # Enables selecting this edit on the input
+    enable_output: false # Enables selecting this edit on the output
+    color: purple # Use HEX codes, or pre-defined colors
+    icon: fa-globe # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
+
+    # Specify annotations for the edit
+    annotation:
+      - name: sentiment
+        label: "Positive/Negative"
+        question: "Is the portryal of AI positive or negative?"
+        options:
+          - name: pos
+            label: "positive"
+          - name: neg
+            label: "negative"
+
   - name: user
     label: "user experience"
     enable_input: true # Enables selecting this edit on the input
@@ -443,22 +445,6 @@ edits:
         options:
           - name: pos
             label: "positive"
-          - name: neg
-            label: "negative"
-
-  - name: domination
-    label: "world domination"
-    enable_input: true # Enables selecting this edit on the input
-    enable_output: false # Enables selecting this edit on the output
-    color: purple # Use HEX codes, or pre-defined colors
-    icon: fa-globe # <- Use any icon name from http://fontawesome.com/search?o=r&m=free
-
-    # Specify annotations for the edit
-    annotation:
-      - name: sentiment
-        label: "Positive/Negative"
-        question: "Is the portryal of AI positive or negative?"
-        options:
           - name: neg
             label: "negative"
 
